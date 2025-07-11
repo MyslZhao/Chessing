@@ -1,8 +1,8 @@
 package com.chess;
 
 public class Queen extends Chess {
-    public Queen(int new_color) {
-        super(new_color);
+    public Queen(int new_color, String new_name) {
+        super(new_color, new_name);
         switch (new_color) {
             case 1 -> {
                 loca[0] = 4;
