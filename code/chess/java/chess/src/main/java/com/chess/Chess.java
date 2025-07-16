@@ -2,7 +2,7 @@ package com.chess;
 
 import org.json.JSONArray;
 
-public abstract class Chess {
+abstract class Chess {
     String name;
     // display_size常量:规定棋子显示大小
     static int[] display_size = new int[] { 40, 40 };

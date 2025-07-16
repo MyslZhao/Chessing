@@ -1,6 +1,6 @@
 package com.chess;
 
-public class Knight extends Chess {
+class Knight extends Chess {
     public Knight(int new_color, String new_name, int side) {
         super(new_color, new_name);
         switch (new_color) {

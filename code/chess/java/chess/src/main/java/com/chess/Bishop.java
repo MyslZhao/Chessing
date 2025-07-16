@@ -1,6 +1,6 @@
 package com.chess;
 
-public class Bishop extends Chess {
+class Bishop extends Chess {
     public Bishop(int new_color, String new_name, int side) {
         super(new_color, new_name);
         switch (new_color) {

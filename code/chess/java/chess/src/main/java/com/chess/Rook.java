@@ -1,6 +1,6 @@
 package com.chess;
 
-public class Rook extends Chess {
+class Rook extends Chess {
     public Rook(int new_color, String new_name, int side) {
         super(new_color, new_name);
         switch (new_color) {

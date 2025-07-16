@@ -1,6 +1,6 @@
 package com.chess;
 
-public class Pawn extends Chess {
+class Pawn extends Chess {
     public Pawn(int new_color, String new_name, int x_loca) {
         super(new_color, new_name);
         switch (new_color) {
